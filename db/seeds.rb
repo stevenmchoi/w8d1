@@ -5,3 +5,39 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# r = login({
+# 		username: 'user1',
+# 		email: 'email1',
+# 		password: 'password'
+# 	})
+
+# r = signup({
+# 		username: 'user1',
+# 		email: 'email1',
+# 		password: 'password'
+# 	})
+
+## State Shape
+# {
+#   session: {
+#     currentUser: null,
+#   },
+#   errors: {
+#     session: ["Invalid credentials"]
+#   }
+# }
+#
+# or this:
+#
+# {
+#   session: {
+#     currentUser: {
+#       id: 1,
+#       username: 'breakfast'
+#     }
+#   },
+#   errors: {
+#     session: []
+#   }
+# }
