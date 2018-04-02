@@ -19,6 +19,16 @@
 # 	})
 
 ## State Shape
+# default:
+# {
+#   session: {
+#     currentUser: null,
+#   },
+#   errors: {
+#     session: []
+#   }
+# }
+#
 # {
 #   session: {
 #     currentUser: null,
