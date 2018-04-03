@@ -6,17 +6,19 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# r = login({
+# dispatch(login({
 # 		username: 'user1',
 # 		email: 'email1',
 # 		password: 'password'
-# 	})
+# 	}))
 
-# r = signup({
+# dispatch(signup({
 # 		username: 'user1',
 # 		email: 'email1',
 # 		password: 'password'
-# 	})
+# 	}))
+
+# last signup: 4
 
 ## State Shape
 # default:
