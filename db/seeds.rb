@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+## Test
+# getState()
+#
 # dispatch(login({
 # 		username: 'user1',
 # 		email: 'email1',
